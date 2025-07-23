@@ -1,36 +1,38 @@
-# Video Converter (v1.0)
+## Video Format Converter (v1.0)
 
-## Overview
-
+### 📝 Project description
 This Python-based video converter uses `ffmpeg` to convert video files from one format to another. It supports several popular video formats for both input and output.
 
-## How to install
-Install ffmpeg-python first ```pip install ffmpeg-python``` <br>
-For linux use ```sudo apt install ffmpeg``` (ubuntu tested) <br>
-For MacOS use ```brew install ffmpeg``` <br>
-For Winfows ```install based on website``` <br>
+### 🛠️ Tech stack
+- `python`
+- `ffmpeg` (library)
 
-## Supported Input Formats:
+### 🌱 Skills gained & problems overcomed
+- Video encoding and converting
 
-The script accepts the following input formats:
+### ⚙️ How to install
 
+#### Dependencies
+Install ffmpeg-python first ```pip install ffmpeg-python```
+- For Linux use ```sudo apt install ffmpeg``` (ubuntu tested)
+- For MacOS use ```brew install ffmpeg```
+- For Winfows ```follow installation on the website```
+
+#### ⬅️ Supported Input Formats:
 - `.avi`
 - `.mkv`
 - `.mp4`
 - `.mov`
 - `.webm`
 
-## Supported Output Formats:
-
-The script can convert the input video into the following formats:
-
+#### ➡️ Supported Output Formats:
 - **MKV** (`.mkv`)
 - **MP4** (`.mp4`)
 - **MOV** (`.mov`)
 - **AVI** (`.avi`)
 - **WEBM** (`.webm`)
 
-## How to Use
+### 📌 How to Use
 
 1. **Run the script**: Start the script by executing it in your Python environment.
 2. **Enter the path**: You will be prompted to enter the absolute path of the video file you want to convert (e.g., `/home/user-name/video.avi`).
@@ -38,7 +40,7 @@ The script can convert the input video into the following formats:
 4. **Conversion**: Press Enter to start the conversion process. You will see information about the current encoding progress.
 5. **Save**: The converted file will be saved with a new name, suffixed with `_converted`, and the appropriate file extension (e.g., `video_converted.mp4`).
 
-## Notes
+## ✏️ Notes
 
 - The conversion process may take some time depending on the size of the video and the output format.
 - Ensure that `ffmpeg` is installed and available on your system.
